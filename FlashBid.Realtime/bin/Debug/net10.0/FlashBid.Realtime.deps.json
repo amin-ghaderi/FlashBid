@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "FlashBid.Realtime/1.0.0": {
+        "dependencies": {
+          "FlashBid.Core": "1.0.0"
+        },
+        "runtime": {
+          "FlashBid.Realtime.dll": {}
+        }
+      },
+      "FlashBid.Core/1.0.0": {
+        "dependencies": {
+          "FlashBid.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FlashBid.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FlashBid.Domain/1.0.0": {
+        "runtime": {
+          "FlashBid.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlashBid.Realtime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlashBid.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlashBid.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

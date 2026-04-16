@@ -1,0 +1,17 @@
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\bin\Debug\net10.0\FlashBid.Infrastructure.deps.json
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\bin\Debug\net10.0\FlashBid.Infrastructure.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\bin\Debug\net10.0\FlashBid.Infrastructure.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\bin\Debug\net10.0\FlashBid.Domain.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\bin\Debug\net10.0\FlashBid.Domain.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\FlashBid.Infrastructure.csproj.AssemblyReference.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\FlashBid.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\FlashBid.Infrastructure.AssemblyInfoInputs.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\FlashBid.Infrastructure.AssemblyInfo.cs
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\FlashBid.Infrastructure.csproj.CoreCompileInputs.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\FlashBid.2BDACB11.Up2Date
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\FlashBid.Infrastructure.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\refint\FlashBid.Infrastructure.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\FlashBid.Infrastructure.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\ref\FlashBid.Infrastructure.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\bin\Debug\net10.0\FlashBid.Core.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\bin\Debug\net10.0\FlashBid.Core.pdb

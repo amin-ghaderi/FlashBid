@@ -1,0 +1,11 @@
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\bin\Debug\net10.0\FlashBid.Domain.deps.json
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\bin\Debug\net10.0\FlashBid.Domain.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\bin\Debug\net10.0\FlashBid.Domain.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\FlashBid.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\FlashBid.Domain.AssemblyInfoInputs.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\FlashBid.Domain.AssemblyInfo.cs
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\FlashBid.Domain.csproj.CoreCompileInputs.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\FlashBid.Domain.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\refint\FlashBid.Domain.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\FlashBid.Domain.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\ref\FlashBid.Domain.dll

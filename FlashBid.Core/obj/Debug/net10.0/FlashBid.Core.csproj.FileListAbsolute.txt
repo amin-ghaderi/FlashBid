@@ -1,0 +1,15 @@
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\bin\Debug\net10.0\FlashBid.Core.deps.json
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\bin\Debug\net10.0\FlashBid.Core.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\bin\Debug\net10.0\FlashBid.Core.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\bin\Debug\net10.0\FlashBid.Domain.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\bin\Debug\net10.0\FlashBid.Domain.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.Core.csproj.AssemblyReference.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.Core.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.Core.AssemblyInfoInputs.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.Core.AssemblyInfo.cs
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.Core.csproj.CoreCompileInputs.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.01D156EF.Up2Date
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.Core.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\refint\FlashBid.Core.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.Core.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\ref\FlashBid.Core.dll

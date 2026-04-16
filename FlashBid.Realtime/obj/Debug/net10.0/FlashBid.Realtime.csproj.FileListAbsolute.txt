@@ -1,0 +1,17 @@
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\bin\Debug\net10.0\FlashBid.Realtime.deps.json
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\bin\Debug\net10.0\FlashBid.Realtime.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\bin\Debug\net10.0\FlashBid.Realtime.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\bin\Debug\net10.0\FlashBid.Core.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\bin\Debug\net10.0\FlashBid.Domain.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\bin\Debug\net10.0\FlashBid.Core.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\bin\Debug\net10.0\FlashBid.Domain.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.Realtime.csproj.AssemblyReference.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.Realtime.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.Realtime.AssemblyInfoInputs.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.Realtime.AssemblyInfo.cs
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.Realtime.csproj.CoreCompileInputs.cache
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.050723F0.Up2Date
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.Realtime.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\refint\FlashBid.Realtime.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.Realtime.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\ref\FlashBid.Realtime.dll

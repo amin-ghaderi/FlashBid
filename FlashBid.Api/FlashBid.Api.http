@@ -1,0 +1,5 @@
+# Designed and Implemented by Amin Ghaderi
+
+@FlashBid.Api_HostAddress = http://localhost:5091
+
+# SignalR hub: {{FlashBid.Api_HostAddress}}/auctionHub
