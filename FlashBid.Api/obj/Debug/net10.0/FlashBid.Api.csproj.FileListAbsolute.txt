@@ -39,3 +39,6 @@ c:\Users\Public\Myapps\FlashBid\FlashBid.Api\obj\Debug\net10.0\ref\FlashBid.Api.
 c:\Users\Public\Myapps\FlashBid\FlashBid.Api\bin\Debug\net10.0\Pipelines.Sockets.Unofficial.dll
 c:\Users\Public\Myapps\FlashBid\FlashBid.Api\bin\Debug\net10.0\StackExchange.Redis.dll
 c:\Users\Public\Myapps\FlashBid\FlashBid.Api\bin\Debug\net10.0\System.IO.Hashing.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Api\obj\Debug\net10.0\FlashBid.Api.sourcelink.json
+c:\Users\Public\Myapps\FlashBid\FlashBid.Api\obj\Debug\net10.0\compressed\t3ni7wt3gx-{0}-8tb0vkhknd-8tb0vkhknd.gz
+C:\Users\Public\Myapps\FlashBid\FlashBid.Api\bin\Debug\net10.0\FlashBid.Api.staticwebassets.runtime.json

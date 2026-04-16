@@ -1,0 +1,135 @@
+<!-- Designed and Implemented by Amin Ghaderi -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FlashBid test client</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 42rem; margin: 1rem auto; padding: 0 0.75rem; }
+    label { display: block; margin-top: 0.5rem; font-weight: 600; }
+    input { width: 100%; max-width: 28rem; padding: 0.35rem; box-sizing: border-box; }
+    .row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+    button { padding: 0.4rem 0.75rem; cursor: pointer; }
+    #status { margin: 0.75rem 0; padding: 0.5rem; background: #f3f4f6; border-radius: 4px; }
+    #log { list-style: none; padding: 0; margin: 0; max-height: 16rem; overflow: auto; border: 1px solid #ddd; border-radius: 4px; }
+    #log li { padding: 0.35rem 0.5rem; border-bottom: 1px solid #eee; font-size: 0.9rem; }
+    #log li:last-child { border-bottom: none; }
+    .muted { color: #666; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <h1>FlashBid test</h1>
+  <p class="muted">Open this page from the API origin (e.g. <code>http://localhost:5091/</code>) so SignalR matches the host.</p>
+
+  <label for="auctionId">Auction ID (GUID string)</label>
+  <input id="auctionId" type="text" placeholder="e.g. 3fa85f64-5717-4562-b3fc-2c963f66afa6" />
+
+  <label for="amount">Bid amount</label>
+  <input id="amount" type="number" step="0.01" min="0" placeholder="10.50" />
+
+  <div class="row">
+    <button type="button" id="btnConnect">Connect</button>
+    <button type="button" id="btnJoin">Join Auction</button>
+    <button type="button" id="btnBid">Place Bid</button>
+  </div>
+
+  <div><strong>Status:</strong> <span id="status">Disconnected</span></div>
+
+  <h2>Event log</h2>
+  <ul id="log"></ul>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    const hubUrl = new URL("/auctionHub", window.location.origin).href;
+    let connection = null;
+
+    const statusEl = document.getElementById("status");
+    const logEl = document.getElementById("log");
+
+    function logLine(text) {
+      const li = document.createElement("li");
+      li.textContent = new Date().toISOString() + " — " + text;
+      logEl.prepend(li);
+    }
+
+    function setStatus(text) {
+      statusEl.textContent = text;
+    }
+
+    document.getElementById("btnConnect").addEventListener("click", async () => {
+      if (connection) {
+        try { await connection.stop(); } catch (_) {}
+        connection = null;
+      }
+
+      connection = new signalR.HubConnectionBuilder()
+        .withUrl(hubUrl)
+        .withAutomaticReconnect()
+        .build();
+
+      connection.on("BidUpdated", (result) => {
+        logLine("BidUpdated: " + JSON.stringify(result));
+      });
+      connection.on("BidRejected", (auctionId) => {
+        logLine("BidRejected: " + auctionId);
+      });
+
+      connection.onreconnecting(() => setStatus("Reconnecting…"));
+      connection.onreconnected(() => setStatus("Connected"));
+      connection.onclose(() => setStatus("Disconnected"));
+
+      try {
+        await connection.start();
+        setStatus("Connected");
+        logLine("SignalR started: " + hubUrl);
+      } catch (err) {
+        setStatus("Error");
+        logLine("Start failed: " + (err && err.message ? err.message : String(err)));
+      }
+    });
+
+    document.getElementById("btnJoin").addEventListener("click", async () => {
+      if (!connection || connection.state !== signalR.HubConnectionState.Connected) {
+        logLine("Join skipped: not connected.");
+        return;
+      }
+      const auctionId = document.getElementById("auctionId").value.trim();
+      if (!auctionId) {
+        logLine("Join skipped: enter Auction ID.");
+        return;
+      }
+      try {
+        await connection.invoke("JoinAuction", auctionId);
+        logLine('JoinAuction("' + auctionId + '") ok');
+      } catch (err) {
+        logLine("JoinAuction error: " + (err && err.message ? err.message : String(err)));
+      }
+    });
+
+    document.getElementById("btnBid").addEventListener("click", async () => {
+      if (!connection || connection.state !== signalR.HubConnectionState.Connected) {
+        logLine("Bid skipped: not connected.");
+        return;
+      }
+      const auctionId = document.getElementById("auctionId").value.trim();
+      const raw = document.getElementById("amount").value;
+      const amount = parseFloat(raw);
+      if (!auctionId) {
+        logLine("Bid skipped: enter Auction ID.");
+        return;
+      }
+      if (Number.isNaN(amount)) {
+        logLine("Bid skipped: invalid amount.");
+        return;
+      }
+      try {
+        await connection.invoke("PlaceBid", auctionId, amount);
+        logLine('PlaceBid("' + auctionId + '", ' + amount + ") invoked");
+      } catch (err) {
+        logLine("PlaceBid error: " + (err && err.message ? err.message : String(err)));
+      }
+    });
+  </script>
+</body>
+</html>

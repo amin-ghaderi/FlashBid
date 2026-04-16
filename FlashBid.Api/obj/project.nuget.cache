@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DVl4SYnVTn0=",
+  "dgSpecHash": "bZ1kbIDraUM=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\FlashBid.Api.csproj",
+  "projectFilePath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\FlashBid.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\info\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\info\\.nuget\\packages\\stackexchange.redis\\2.12.14\\stackexchange.redis.2.12.14.nupkg.sha512",

@@ -9,3 +9,4 @@ c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\FlashBid.Domai
 c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\refint\FlashBid.Domain.dll
 c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\FlashBid.Domain.pdb
 c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\ref\FlashBid.Domain.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Domain\obj\Debug\net10.0\FlashBid.Domain.sourcelink.json

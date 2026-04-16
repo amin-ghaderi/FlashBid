@@ -15,3 +15,4 @@ c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.Rea
 c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\refint\FlashBid.Realtime.dll
 c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.Realtime.pdb
 c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\ref\FlashBid.Realtime.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Realtime\obj\Debug\net10.0\FlashBid.Realtime.sourcelink.json

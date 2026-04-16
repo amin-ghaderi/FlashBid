@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlashBid.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56ba59afde47e7b48f8410b8bf86643bde548102")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlashBid.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlashBid.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -334,11 +334,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Core\\FlashBid.Core.csproj": {
-              "projectPath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Core\\FlashBid.Core.csproj"
+            "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Core\\FlashBid.Core.csproj": {
+              "projectPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Core\\FlashBid.Core.csproj"
             },
-            "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj": {
-              "projectPath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj"
+            "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj": {
+              "projectPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj"
             }
           }
         }

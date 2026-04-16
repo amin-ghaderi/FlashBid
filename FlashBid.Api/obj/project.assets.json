@@ -215,11 +215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\FlashBid.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\FlashBid.Api.csproj",
       "projectName": "FlashBid.Api",
-      "projectPath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\FlashBid.Api.csproj",
+      "projectPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\FlashBid.Api.csproj",
       "packagesPath": "C:\\Users\\info\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\obj\\",
+      "outputPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\info\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -234,14 +234,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Core\\FlashBid.Core.csproj": {
-              "projectPath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Core\\FlashBid.Core.csproj"
+            "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Core\\FlashBid.Core.csproj": {
+              "projectPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Core\\FlashBid.Core.csproj"
             },
             "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Infrastructure\\FlashBid.Infrastructure.csproj": {
               "projectPath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Infrastructure\\FlashBid.Infrastructure.csproj"
             },
-            "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Realtime\\FlashBid.Realtime.csproj": {
-              "projectPath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Realtime\\FlashBid.Realtime.csproj"
+            "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Realtime\\FlashBid.Realtime.csproj": {
+              "projectPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Realtime\\FlashBid.Realtime.csproj"
             }
           }
         }

@@ -13,3 +13,4 @@ c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.Core.dl
 c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\refint\FlashBid.Core.dll
 c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.Core.pdb
 c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\ref\FlashBid.Core.dll
+c:\Users\Public\Myapps\FlashBid\FlashBid.Core\obj\Debug\net10.0\FlashBid.Core.sourcelink.json

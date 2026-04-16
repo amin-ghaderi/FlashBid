@@ -15,3 +15,4 @@ c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\FlashB
 c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\ref\FlashBid.Infrastructure.dll
 c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\bin\Debug\net10.0\FlashBid.Core.dll
 c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\bin\Debug\net10.0\FlashBid.Core.pdb
+c:\Users\Public\Myapps\FlashBid\FlashBid.Infrastructure\obj\Debug\net10.0\FlashBid.Infrastructure.sourcelink.json

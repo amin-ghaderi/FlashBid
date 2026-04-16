@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj": {}
+    "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj": {
+    "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj",
         "projectName": "FlashBid.Domain",
-        "projectPath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj",
+        "projectPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\FlashBid.Domain.csproj",
         "packagesPath": "C:\\Users\\info\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\info\\AppData\\Roaming\\NuGet\\NuGet.Config"
