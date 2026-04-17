@@ -215,11 +215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\FlashBid.Api.csproj",
+      "projectUniqueName": "C:\\Users\\public\\myapps\\flashbid\\FlashBid.Api\\FlashBid.Api.csproj",
       "projectName": "FlashBid.Api",
-      "projectPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\FlashBid.Api.csproj",
+      "projectPath": "C:\\Users\\public\\myapps\\flashbid\\FlashBid.Api\\FlashBid.Api.csproj",
       "packagesPath": "C:\\Users\\info\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Api\\obj\\",
+      "outputPath": "C:\\Users\\public\\myapps\\flashbid\\FlashBid.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\info\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -234,14 +234,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Core\\FlashBid.Core.csproj": {
-              "projectPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Core\\FlashBid.Core.csproj"
+            "C:\\Users\\public\\myapps\\flashbid\\FlashBid.Core\\FlashBid.Core.csproj": {
+              "projectPath": "C:\\Users\\public\\myapps\\flashbid\\FlashBid.Core\\FlashBid.Core.csproj"
             },
-            "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Infrastructure\\FlashBid.Infrastructure.csproj": {
-              "projectPath": "c:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Infrastructure\\FlashBid.Infrastructure.csproj"
+            "C:\\Users\\public\\myapps\\flashbid\\FlashBid.Infrastructure\\FlashBid.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\public\\myapps\\flashbid\\FlashBid.Infrastructure\\FlashBid.Infrastructure.csproj"
             },
-            "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Realtime\\FlashBid.Realtime.csproj": {
-              "projectPath": "C:\\Users\\Public\\Myapps\\FlashBid\\FlashBid.Realtime\\FlashBid.Realtime.csproj"
+            "C:\\Users\\public\\myapps\\flashbid\\FlashBid.Realtime\\FlashBid.Realtime.csproj": {
+              "projectPath": "C:\\Users\\public\\myapps\\flashbid\\FlashBid.Realtime\\FlashBid.Realtime.csproj"
             }
           }
         }

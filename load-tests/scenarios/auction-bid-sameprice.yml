@@ -1,0 +1,25 @@
+# Same-price concurrent bids — race / atomicity (Redis Lua)
+# Designed and Implemented by Amin Ghaderi
+
+config:
+  target: "http://localhost:5091"
+  processor: "../scripts/helpers.js"
+  phases:
+    - duration: 10
+      arrivalRate: 10
+      name: "warm-up"
+    - duration: 10
+      arrivalRate: 100
+      name: "spike"
+
+scenarios:
+  - name: "Identical bid amount — POST /test/bid"
+    beforeScenario: "setAuctionIdFromEnv"
+    flow:
+      - post:
+          url: "/test/bid"
+          headers:
+            Content-Type: "application/json"
+          json:
+            auctionId: "{{ auctionId }}"
+            amount: 200

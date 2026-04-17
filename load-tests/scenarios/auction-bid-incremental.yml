@@ -1,0 +1,29 @@
+# Incremental bid load test – measure real throughput without rejection
+
+config:
+  target: "http://localhost:5091"
+  processor: "../scripts/helpers.js"
+  phases:
+    - duration: 30
+      arrivalRate: 5
+      name: "warm-up"
+    - duration: 60
+      arrivalRate: 20
+      name: "ramp-up"
+    - duration: 120
+      arrivalRate: 50
+      name: "peak"
+
+scenarios:
+  - name: "Incremental bids — POST /test/bid (global sequence)"
+    beforeScenario: "setAuctionIdFromEnv"
+    flow:
+      - function: "setGlobalIncrementalBid"
+      - post:
+          url: "/test/bid"
+          headers:
+            Content-Type: "application/json"
+          json:
+            auctionId: "{{ auctionId }}"
+            amount: "{{ amount }}"
+      - think: 0.15

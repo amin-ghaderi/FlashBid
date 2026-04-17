@@ -1,0 +1,28 @@
+# Designed and Implemented by Amin Ghaderi
+# Repeatedly creates auctions via POST /auctions
+
+config:
+  target: "http://localhost:5091"
+  processor: "../scripts/helpers.js"
+  phases:
+    - duration: 30
+      arrivalRate: 1
+      name: "warm-up"
+    - duration: 60
+      arrivalRate: 5
+      name: "ramp-up"
+    - duration: 120
+      arrivalRate: 20
+      name: "peak"
+
+scenarios:
+  - name: "Create auctions"
+    flow:
+      - function: "setCreatePayload"
+      - post:
+          url: "/auctions"
+          headers:
+            Content-Type: "application/json"
+          json:
+            startPrice: "{{ startPrice }}"
+            durationSeconds: "{{ durationSeconds }}"

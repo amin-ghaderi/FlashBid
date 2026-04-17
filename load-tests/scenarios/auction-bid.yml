@@ -1,0 +1,40 @@
+# Designed and Implemented by Amin Ghaderi
+#
+# Real bidding load: POST /test/bid → IBiddingEngine → Redis Lua (same path as production logic).
+# Requires env AUCTION_ID (existing auction GUID). Amount is random 100–1000 per request.
+
+config:
+  target: "http://localhost:5091"
+  processor: "../scripts/helpers.js"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      name: "warm-up"
+    - duration: 60
+      arrivalRate: 20
+      name: "ramp-up"
+    - duration: 120
+      arrivalRate: 50
+      name: "peak"
+
+scenarios:
+  - name: "Concurrent bids via POST /test/bid"
+    beforeScenario: "setAuctionIdFromEnv"
+    flow:
+      - function: "setRandomTestBidAmount"
+      - post:
+          url: "/test/bid"
+          headers:
+            Content-Type: "application/json"
+          json:
+            auctionId: "{{ auctionId }}"
+            amount: "{{ amount }}"
+          capture:
+            - json: "$.isAccepted"
+              as: "isAccepted"
+      - function: "trackAcceptance"
+      - think: 0.1
+
+after:
+  flow:
+    - function: "printSummary"

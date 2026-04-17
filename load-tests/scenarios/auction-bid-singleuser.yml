@@ -1,0 +1,36 @@
+# Single-user incremental bids — measure acceptance throughput (minimal concurrency)
+# Designed and Implemented by Amin Ghaderi
+#
+# Phase model (Artillery):
+# - arrivalRate × duration schedules ONE NEW VIRTUAL USER per second for duration seconds
+#   (e.g. 1/s × 60s → up to 60 distinct VUs over the phase), each running the full scenario once.
+# - maxVusers caps CONCURRENT VUs, not total arrivals; when one VU finishes, another scheduled
+#   arrival can still run → many back-to-back "single-user" sessions, not one lifetime user.
+# Fix: arrivalCount: 1 creates exactly ONE virtual user for this phase (see Artillery docs).
+# maxVusers on the phase reinforces a concurrency ceiling of 1 (documented phase option).
+
+config:
+  target: "http://localhost:5091"
+  processor: "../scripts/helpers.js"
+  phases:
+    - duration: 60
+      arrivalCount: 1
+      maxVusers: 1
+      name: "sequential"
+
+scenarios:
+  - name: "Single user incremental bids — no concurrency"
+    beforeScenario: "setAuctionIdFromEnv"
+    flow:
+      # Artillery: `loop` body must be an array of steps; `count` is a sibling (not nested `flow:`).
+      - loop:
+          - function: "setGlobalIncrementalBid"
+          - post:
+              url: "/test/bid"
+              headers:
+                Content-Type: "application/json"
+              json:
+                auctionId: "{{ auctionId }}"
+                amount: "{{ amount }}"
+          - think: 0
+        count: 1000
